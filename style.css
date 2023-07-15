@@ -1,0 +1,50 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5;
+        background-image: linear-gradient(45deg, #45a3e5, #66bf39);
+    }
+    10% {
+        background-color: #66bf39;
+        background-image: linear-gradient(45deg, #66bf39, #eb670f);
+    }
+    20% {
+        background-color: #eb670f;
+        background-image: linear-gradient(45deg, #eb670f, #f35);
+    }
+    30% {
+        background-color: #f35;
+        background-image: linear-gradient(45deg, #f35, #864cbf);
+    }
+    40% {
+        background-color: #864cbf;
+        background-image: linear-gradient(45deg, #864cbf, #45a3e5);
+    }
+    50% {
+        background-color: #45a3e5;
+        background-image: linear-gradient(45deg, #45a3e5, #66bf39);
+    }
+    60% {
+        background-color: #66bf39;
+        background-image: linear-gradient(45deg, #66bf39, #eb670f);
+    }
+    70% {
+        background-color: #eb670f;
+        background-image: linear-gradient(45deg, #eb670f, #f35);
+    }
+    80% {
+        background-color: #f35;
+        background-image: linear-gradient(45deg, #f35, #864cbf);
+    }
+    90% {
+        background-color: #864cbf;
+        background-image: linear-gradient(45deg, #864cbf, #45a3e5);
+    }
+    100% {
+        background-color: #45a3e5;
+        background-image: linear-gradient(45deg, #45a3e5, #66bf39);
+    }
+}
+
+body {
+    animation: bgcolor 10s infinite linear;
+}
